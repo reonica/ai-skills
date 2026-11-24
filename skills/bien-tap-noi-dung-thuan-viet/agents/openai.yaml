@@ -1,0 +1,13 @@
+interface:
+  display_name: "Biên tập nội dung thuần Việt"
+  short_description: "Biên tập tiếng Việt tự nhiên, rõ ý và giữ đúng nghĩa"
+  default_prompt: "Dùng $bien-tap-noi-dung-thuan-viet để biên tập đoạn văn sau cho tự nhiên, đủ ý và giữ đúng nghĩa."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true
