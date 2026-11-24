@@ -1,0 +1,13 @@
+interface:
+  display_name: "Viết sách, tiểu thuyết"
+  short_description: "Nghiên cứu, lập dàn ý, viết sách và tiểu thuyết"
+  default_prompt: "Dùng $viet-sach-tieu-thuyet để lập dàn ý hoặc viết tiếp chương theo thể loại, bản thảo và tư liệu tôi cung cấp."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true
