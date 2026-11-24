@@ -1,0 +1,14 @@
+interface:
+  display_name: CBook Writing v3
+  short_description: Nghiên cứu, viết và kiểm chứng bản thảo CBook
+  default_prompt: Dùng $cbook-writing-v3 để viết tiếp chương từ bản duyệt và các nguồn
+    đã kiểm.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
